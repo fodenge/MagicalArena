@@ -37,6 +37,22 @@ public class Player {
     }
 
     /**
+     * Gets the current strength of the player.
+     * @return The strength of the player.
+     */
+    public int getStrength() {
+        return strength;
+    }
+
+    /**
+     * Sets the strength of the player.
+     * @param strength The new health value.
+     */
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
+    /**
      * Performs an attack action on the defender.
      * @param dice The dice object used for rolling.
      * @param defender The player being attacked.
